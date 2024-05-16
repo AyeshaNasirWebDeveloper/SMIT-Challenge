@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+* {
+    padding: 0%;
+    margin: 0;
+}
+
+.background {
+    background-image: url(./bg.png) !important;
+    background-size: cover;
+    height: 100%;
+}
+
+.button {
+    background-color: #F17AD4 !important;
+}
+
+.but {
+    border-color: #F17AD4 !important;
+}
+
+.but:hover {
+    background-color: #F17AD4 !important;
+    color: black !important;
+}
+
+.fontcolor {
+    color: #F17AD4 !important;
+}
+
+
+/* For Computers */
+.heading {
+    color: #F17AD4;
+    font-family: "Inter", sans-serif !important;
+    font-size: 6rem !important;
+    font-weight:bolder !important;
+    font-style:normal;
+}
+
+.para{
+    font-family: "Inter", sans-serif !important;
+}
+
+.year{
+    font-family: "Inter", sans-serif !important;
+    font-size: 6rem !important;
+    font-weight:bolder !important;
+    font-style:normal;
+}
+
+.headings {
+    font-family: "Inter", sans-serif !important;
+    font-size: 4rem !important;
+    font-weight:bolder !important;
+    font-style:normal;
+}
+
+/* Media query for tablet screens */
+@media (max-width: 768px) {
+    .heading {
+        font-size: 4.5rem !important; 
+    }
+    .headings {
+        font-size: 3rem !important; 
+    }
+}
+
+/* Media query for mobile screens */
+@media (max-width: 576px) {
+    .heading {
+        font-size: 3rem !important; /* Adjust font size for even smaller screens */
+    }
+    .headings {
+        font-size: 2.5rem !important; 
+    }
+}
+
